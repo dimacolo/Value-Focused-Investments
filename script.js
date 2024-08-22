@@ -57,11 +57,13 @@ function handleLogin(event) {
     const password = document.getElementById('password').value;
 
     // Example logic: redirect based on username and password
-    if (username === "Dimitri Colombo" && password === "DimitriColombo1") {
+    if (username === "Dimitri" && password === "Dimitri") {
         window.location.href = "https://dimitri-colombo.notion.site/Value-Focused-Investments-Documentazione-f1f820dad57a47da83a8a7731615964e?pvs=74";
-    } else if (username === "Dimitri Colombo 2" && password === "DimitriColombo2") {
+    } else if (username === "Nicholas" && password === "Nicholas") {
         window.location.href = "https://dimitri-colombo.notion.site/2-Lettera-agli-Investitori-30-giugno-2024-0935d1289ebe45e8a49811be2733f3a7";
-    } else {
+    } else if (username === "Google" && password === "Google") {
+        window.location.href = "https://google.com";
+    else {
         alert("Invalid credentials! Please try again.");
     }
 }
