@@ -61,8 +61,6 @@ function handleLogin(event) {
         window.location.href = "https://dimitri-colombo.notion.site/Value-Focused-Investments-Documentazione-f1f820dad57a47da83a8a7731615964e?pvs=74";
     } else if (username === "Nicholas" && password === "Nicholas") {
         window.location.href = "https://dimitri-colombo.notion.site/2-Lettera-agli-Investitori-30-giugno-2024-0935d1289ebe45e8a49811be2733f3a7";
-    } else if (username === "Google" && password === "Google") {
-        window.location.href = "https://google.com";
     } else {
         alert("Invalid credentials! Please try again.");
     }
